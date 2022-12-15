@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+    <!-- This page was made by yusuf  -->
+  <head>
+  <!-- This is to link this page to the external css -->
+    <link rel="stylesheet" href="style.css">
+
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Gallery</title>
+		<link href="https://fonts.googleapis.com/css2?family=Kenia&family=Silkscreen&display=swap" rel="stylesheet">
+<!-- This is a link to bootstrap so we can use the links from that for our website e.g. the nave bar and footer used across all websites -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+	<script>
+
+    function toggleImage() {
+      var imageElement = document.getElementById("image");
+      var textElement = document.getElementById("text");
+
+	  // Hide the image and show the text.
+      imageElement.style.display = "none";
+      textElement.style.display = "block";
+	  // Change the color of the text to white
+      textElement.style.backgroundColor = "white";
+	  }
+
+	function toggleImage2() {
+	  var imageElement2 = document.getElementById("image2");
+      var textElement2 = document.getElementById("text2");
+
+      // Hide the image and show the text.
+      imageElement2.style.display = "none";
+      textElement2.style.display = "block";
+	  // Change the color of the text to white
+      textElement2.style.backgroundColor = "white";
+
+    }
+
+	function toggleImage3() {
+	  var imageElement3 = document.getElementById("image3");
+      var textElement3 = document.getElementById("text3");
+
+      // Hide the image and show the text.
+      imageElement3.style.display = "none";
+      textElement3.style.display = "block";
+	  // Change the color of the text to white
+      textElement3.style.backgroundColor = "white";
+
+    }
+
+	function toggleImage4() {
+	  var imageElement4 = document.getElementById("image4");
+      var textElement4 = document.getElementById("text4");
+
+      // Hide the image and show the text.
+      imageElement4.style.display = "none";
+      textElement4.style.display = "block";
+	  // Change the color of the text to white
+      textElement4.style.backgroundColor = "white";
+
+    }
+
+  </script>
+
+  </head>
+
+<body class="gallery">
+
+	<h1>
+    <img src="images/logo.png" alt="logo">
+    Gallery
+	</h1>
+		<nav class="navbar navbar-expand-lg bg-light">
+		  <div class="container-fluid">
+			<a class="navbar-brand" href="#">Search</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			  <div class="navbar-nav">
+				<a class="nav-link" href="index.html">Home</a>
+				<a class="nav-link" href="pg2.html"> Form </a>
+				<a class="nav-link" href="pg3.html"> Gallery </a>
+				<a class="nav-link" href="pg4.html"> Fortune teller </a>
+			  </div>
+			</div>
+		  </div>
+		</nav>
+
+			<marquee direction="right">Tips & Tricks</marquee>
+			<br><br>
+
+<div class="pic">
+
+	<img id="image" onclick="toggleImage()" src="images/sleep.png">
+  <p id="text">First of all, above all, your health is your wealth. You Will NOT be able to study effectively if your mind and body is not at peace. Get the right sleep and eat the right foods, as humans we need energy to heal ourselves. Put yourself before your studies.</p>
+
+  <img id="image2" onclick="toggleImage2()" src="images/success.png">
+  <p id="text2"> When dealing with multiple tasks, you need to take it one step at a time. Break down each task and tackle them one by one. Organise yourself woith a structure. Work looks more achievable when it is not one massive snowball.</p>
+
+  <img id="image3" onclick="toggleImage3()" src="images/motiv.png">
+  <p id="text3"> We can boost motivation in different ways. First of all you need to understand the purpose of your studies. Create a sense of urgency. Look at successful people and unsuccessful people, understand that one of them put the work in and one did not. Being competitive is natural, so seeing other people succeed will make you also want to succeed.</p>
+
+  <img id="image4" onclick="toggleImage4()" src="images/didyouknow.jpg">
+  <p id="text4"> Did you know that theres a 'Best time to study'? Between 4AM - 6AM, brain function is at 100%. Between 6AM to 8PM, brain function is at 50% & during night time brain function is at 20%.</p>
+
+</div>
+
+<div class="vid">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3-xCQXCt6aM?start=7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
+<!-- The footer tag is used to subscribe to our news letter and is another way to navigate between the pages on the website -->
+  <footer>
+  <div class="subscribe-box">
+    <h3>Subscribe to our newsletter</h3>
+    <form>
+      <input type="email" placeholder="Enter your email address">
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+  <div class="site-map">
+    <h3>Site Map</h3>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pg2.html">Form</a></li>
+        <li><a href="pg3.html">Gallery</a></li>
+        <li><a href="pg4.html">Fortune Teller</a></li>
+    </ul>
+  </div>
+  </footer>
+
+  </body>
+</html>

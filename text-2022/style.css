@@ -1,0 +1,152 @@
+.ca1{
+	text-align: center;
+	color: white;
+}
+
+h1,h2,h3,h4{
+	color: white;
+}
+
+
+.col{
+	color: white;
+}
+/*for the moving tagline*/
+marquee{
+	color:white;
+	font-size: 50px;
+	font-family: Kenia, cursive;
+}
+
+body{
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: #70A9A1;
+}
+
+.center{
+	width: auto;
+	height: auto;
+	top: 25%;
+	left: 37%;
+	position: fixed;
+}
+
+.title3{
+	text-align: center;
+	color: white;
+}
+
+.qq{
+	background-image: url("images/formBG.jpg");
+}
+.gallery{
+	background-image: url("images/formBG.jpg");
+}
+
+/*The styling for the form to make it look */
+form{
+    border: 3px solid white;
+	text-align: center;
+    width: 45%;
+	height: 30%;
+    margin: auto;
+	background-color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: white;
+  color: blue;
+}
+
+.pic{
+	text-align: center;
+}
+
+/* for the heading in each page */
+#text, #text2, #text3, #text4 {
+	display: none;
+}
+
+/* start of game css */
+/* This is how fast/slow i want the background colours to change from one another */
+.magic{
+	animation: colorchange 20s infinite;
+}
+
+/* This is for all of the text on the game page to get it all in the center and make it responsive for diffent devices */
+.talk{
+	text-align: center;
+    width: 45%;
+	height: 30%;
+    margin: auto;
+	padding: auto;
+	color: white;
+	}
+
+/* This is the timing for the colour changing background */
+@keyframes colorchange {
+  0%   {background-color: purple;}
+  25%  {background-color: blue;}
+  50%  {background-color: cyan;}
+  75%  {background-color: pink;}
+  100% {background-color: purple;}
+}
+
+/* end of game css */
+
+.poster{
+	length: 20%;
+	width: 40%;
+	align: cneter;
+}
+
+/* Start of footer*/
+/* The footer css is for the bottom of the page so the user doesnt have to go back to the top of the page to go to a different page */
+footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.subscribe-box, .site-map {
+	width: 70%;
+}
+
+.subscribe-box input, .site-map a {
+	display: block;
+}
+
+.subscribe-box input {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 10px;
+	align: center;
+}
+
+.subscribe-box button {
+	width: 60%;
+	padding: 8px;
+	background-color: #333;
+	color: #fff;
+}
+
+.site-map ul {
+	list-style: none;
+	padding: 0;
+}
+
+/* End of the footer*/
+head {
+  background-image: url(logo.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.vid {
+	text-align: center;
+}
